@@ -1,0 +1,145 @@
+body{
+   background-color:  rgb(196, 185, 185);
+}
+
+
+
+/*haut de page*/
+.header{
+   width: 100%;
+   position: fixed;
+   top: 0%;
+}
+.nom-prenom{
+   float: left;
+  width: 40%;
+  background-color: rgb(196, 185, 185);
+  
+}
+.profil-contact{
+   float: right;
+  width: 60%;
+  
+  background-color: rgb(196, 185, 185);
+}
+.profil{
+   float: right;
+   height: 69px;
+   width: 100px;
+   padding: 0 10px;
+   background-color: rgb(222, 200, 200);
+   
+}
+.contact{
+   float: right;
+   height: 69px;
+   width: 100px;
+   background-color: rgb(222, 200, 200);
+}
+
+/*premieretage*/
+
+.ligne1{
+   width: 100%;
+}
+.portrait{
+   float: left;
+   width: 30%;
+   object-fit: cover;
+   
+}
+
+.premieretage2{
+   
+text-align: center;
+   height: 443px;
+   float: inline-start;
+   background-color: rgb(222, 200, 200);
+   width: 35%;
+
+   
+}
+.experience1{
+   text-align: center;
+   height: 443px;
+   background-color: rgb(196, 185, 185);
+   width: 35%;
+   float: right;
+   float: inline-start;
+   border: 5px;
+   border-color: black;
+}
+
+.experience2{
+   background-color: rgb(222, 200, 200);
+   text-align: center;
+}
+.photo_hobbie1{
+   float:left;
+   width: 35%;
+   text-align: center; 
+}
+.photo_hobbie2{
+   float:left;
+   width: 25%;
+   text-align: center; 
+}
+.photo_chien{
+   float:right;
+   width: 40%;
+   text-align: center; 
+}
+.instagram{
+   float: left;
+   height: 40px;
+   width: 100px;
+   padding: 0 10px;
+   background-color: rgb(222, 200, 200);
+}
+.facebook{
+   
+   height: 40px;
+   width: 100px;
+   padding: 0 10px;
+   background-color: rgb(222, 200, 200);
+}
+.linkedin{
+   float: right;
+   height: 40px;
+   width: 100px;
+   padding: 0 10px;
+   background-color: rgb(222, 200, 200);
+}
+.insta{
+   width: 35%;
+   float: left;
+}
+
+.fb{
+   width: 30%;
+   float: inline-start;
+}
+
+.lin{
+   width: 35%;
+   float: inline-end;
+}
+/* partie responcive*/
+
+/* Téléphone */
+@media only screen and (min-width: 200px) and (max-width: 60Opx)
+{
+  .col-
+  {
+   width: 100%;
+   flex-direction: column;
+   
+  }
+
+}
+
+
+
+
+
+   
