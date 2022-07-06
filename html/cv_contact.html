@@ -1,89 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/cv.css">
 </head>
+
 <body>
-    
-<form method="post" action="contact.php">
-    <h1 class="H1-2">CONTACTEZ-MOI</h1>
-    <h6>* champs obligatoires</h6>
-    <br>
-    <br>
-    <div class="form_contact">
-<div class="contact_form">
-<fieldset class="cadre_contact">
-<h5>Votre nom: *</h5>
-<input type="nom" required class="nom" placeholder="nom">
+    <div class="container">
 
-<h5>Votre prénom: *</h5>
-<input type= "prénom" required class="prénom" placeholder="prénom">
+        <h1 class="H1-2">CONTACTEZ-MOI</h1>
+        <h6>* champs obligatoires</h6>
+        <br>
+        <br>
+        <div class="container col-md-12">
+            <div class="col-md-6" id="contact_form">
+                <fieldset class="cadre_contact">
+                    <h5>Votre nom: *</h5>
+                    <input type="nom" required class="nom" placeholder="nom">
 
-<h5>Votre adresse mail: *</h5>
-<input type= "email" required name="email" id="email" placeholder="adresse mail">
+                    <h5>Votre prénom: *</h5>
+                    <input type="prénom" required class="prénom" placeholder="prénom">
 
-<h5>Votre message *</h5>
-<textarea name= "message" id="" cols="30" rows="10" placeholder="message" required></textarea>
+                    <h5>Votre adresse mail: *</h5>
+                    <input type="email" required name="email" id="email" placeholder="adresse mail">
 
-<input type= "submit" class="envoyer" value="Envoyer">
-</fieldset>
-</div>
+                    <h5>Votre message *</h5>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message" required></textarea>
 
-<div class="coordonnees">
+                    <input type="submit" class="envoyer" value="Envoyer">
+                </fieldset>
+            </div>
 
-    <h4>Mon adresse mail: perrinew62@gmail.com</h4>
-    <br>
-    <h4>Mon numéro de téléphone: 0624103473</h4>
-    <br>
-    <h4>Secteur: Nord</h4>
+            <div class="col-md-6" id="coordonnees">
 
-</div>
+                <h4>Mon adresse mail: perrinew62@gmail.com</h4>
+                <br>
+                <h4>Mon numéro de téléphone: 0624103473</h4>
+                <br>
+                <h4>Secteur: Nord</h4>
 
-</div>
-<script>
+            </div>
 
-
-</script>
+        </div>
+    </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 
 
 
@@ -91,4 +64,5 @@
 
     <script src="/cv/cv.js"></script>
 </body>
+
 </html>
