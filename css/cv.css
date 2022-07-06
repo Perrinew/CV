@@ -2,8 +2,6 @@ body{
    background-color:  rgb(196, 185, 185);
 }
 
-
-
 /*haut de page*/
 .header{
    width: 100%;
@@ -98,7 +96,7 @@ text-align: center;
    background-color: rgb(222, 200, 200);
 }
 .facebook{
-   
+   float: right;
    height: 40px;
    width: 100px;
    padding: 0 10px;
@@ -113,34 +111,60 @@ text-align: center;
 }
 .insta{
    width: 35%;
-   float: left;
+  float: none;
 }
 
 .fb{
    width: 30%;
-   float: inline-start;
+   float: inline-end;
 }
 
 .lin{
    width: 35%;
-   float: inline-end;
+   float: inline-start;
 }
-/* partie responcive*/
 
-/* Téléphone */
-@media only screen and (min-width: 200px) and (max-width: 60Opx)
-{
-  .col-
-  {
+.pictures{
+   
    width: 100%;
-   flex-direction: column;
-   
-  }
-
+   top: 0;
 }
 
+/*contact*/
+.contact_form{
+   float: left;
+   width: 50%;
+   height: auto;
+   text-align: center;
+}
+.H1-2{
+   text-align: center;
+}
+h6{
+   text-align: center;
+}
 
-
-
-
+.envoyer{
+   width: 100px;
+   height: 30px;
+} 
+.cadre_contact{
+   border-color: black;
    
+}
+.coordonnees{
+   float: right;
+   width: 50%;
+   text-align: center;
+   margin-top: 130px;
+   z-index: auto;
+}
+@media only screen and (max-width: 500px){
+   .div{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      display: block;
+      overflow: hidden;
+   }
+}
