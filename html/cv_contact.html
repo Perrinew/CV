@@ -22,18 +22,18 @@
             <div class="col-md-6" id="contact_form">
                 <fieldset class="cadre_contact">
                     <h5>Votre nom: *</h5>
-                    <input type="nom" required class="nom" placeholder="nom">
+                    <input type="nom" class="nom" placeholder="nom" required>
 
                     <h5>Votre prénom: *</h5>
-                    <input type="prénom" required class="prénom" placeholder="prénom">
+                    <input type="prénom" required class="prénom" placeholder="prénom" required>
 
                     <h5>Votre adresse mail: *</h5>
-                    <input type="email" required name="email" id="email" placeholder="adresse mail">
+                    <input type="email" required name="email" id="email" placeholder="adresse mail" required>
 
                     <h5>Votre message *</h5>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="message" required></textarea>
+                    <textarea name="message" required id="" cols="30" rows="10" placeholder="message" required></textarea>
 
-                    <input type="submit" class="envoyer" value="Envoyer">
+                    <input type="button" onclick="requis()" class="envoyer" value="Envoyer">
                 </fieldset>
             </div>
 

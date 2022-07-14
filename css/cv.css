@@ -1,6 +1,13 @@
-body {
-   background-color: rgb(196, 185, 185);
+body{
+   background-image: url('/image/19366.jpg');
+   object-fit: cover;
+   background-size: 100%;
+background-attachment: fixed;
+
+
+
 }
+
 
 #header1 {
 
@@ -12,6 +19,11 @@ body {
 
 /*haut de page*/
 
+.contact{
+   
+   color: black;
+   
+}
 
 .github {
    float: inline-end;
@@ -20,6 +32,8 @@ body {
 
 .git {
    float: right;
+   color: black;
+    
 }
 
 /*premieretage*/
@@ -77,11 +91,12 @@ body {
    float: inline-start;
 }
 
-#insta {
+.ins {
    float: inline-start;
    margin-top: 5px;
    margin-left: 5px;
    margin-right: 5px;
+   color: black;
 }
 
 
@@ -91,11 +106,12 @@ body {
 
 }
 
-#lin {
+.li {
    float: inline-start;
    margin-top: 5px;
    margin-left: 5px;
    margin-right: 5px;
+   color: black;
 }
 
 .fb {
@@ -103,12 +119,15 @@ body {
    float: inline-start;
 }
 
-#fb {
+.fac {
    float: inline-start;
    margin-top: 5px;
    margin-left: 5px;
    margin-right: 5px;
+   color: black;
 }
+
+
 
 .H1-2 {
    text-align: center;
@@ -148,4 +167,14 @@ h6 {
       display: block;
       overflow: hidden;
    }
+}
+
+a:hover{
+   
+   color:blue;
+}
+
+a:active{
+   
+   color:gray;
 }
